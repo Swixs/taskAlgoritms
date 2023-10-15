@@ -14,4 +14,3 @@ function squareDigits(num) {
 }
 const numTest = 3212;
 console.log(squareDigits(numTest));
-// )

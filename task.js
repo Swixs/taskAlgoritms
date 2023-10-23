@@ -1,13 +1,9 @@
-function descendingOrder(n) {
-    debugger
-    let arr = Array.from(String(n), Number);
-    let result = arr.sort((a, b) => b - a)
-
-    // метод сортировки от большего к меньшему "sort"
-
-    return parseInt(result.join(''))
-
-    // метод parseInt используется для преобразорвания строки в число
+function filteredArray(arr, elem) {
+    let newArr = [];
+    // Only change code below this line
+    some
+    // Only change code above this line
+    return arr[0];
 }
 
-console.log(descendingOrder(1544342))
+console.log(filteredArray([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]], 3));

@@ -1,23 +1,12 @@
-function firstNonRepeated(s) {
-    const arrS = Array.from(s);
-    let arrUnicDouble;
+function firstNonRepeatingLetter(s) {
+    for(let i = 0; i < s.length; i++){
+        let unic = s[i];
 
-    debugger
-    for (const element of arrS) {
-        if (arrS.indexOf(element) === arrS.lastIndexOf(element)) {
-            arrUnicDouble = element;
-            break
-            
-        }
-        if(arrUnicDouble == undefined){
-            arrUnicDouble = null
+        if(s.toLowerCase().indexOf(unic.toLowerCase()) === s.toLowerCase().lastIndexOf(unic.toLowerCase())){
+            console.log(unic);
         }
     }
-    return arrUnicDouble
+    return ''; 
 }
-const string = 'tesa';
 
-const result = firstNonRepeated(string);
-
-console.log(result);
-
+console.log(firstNonRepeatingLetter('aTraSS'))

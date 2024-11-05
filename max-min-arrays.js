@@ -15,7 +15,7 @@ function solve(arr) {
     return resultArr
 }
 
-const string = [91, 75, 86, 14, 10]
+const string = [91, 75, 86, 14]
 
 const result = solve(string);
 
